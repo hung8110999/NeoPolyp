@@ -14,8 +14,8 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 # =========================
 # CONFIG
 # =========================
-IMAGE_DIR = "/mnt/d/Data/train/train"
-MASK_DIR  = "/mnt/d/Data/train_gt/train_gt"
+IMAGE_DIR = "/media02/lhthai/Data/train/train"
+MASK_DIR  = "/media02/lhthai/Data/train_gt/train_gt"
 
 N_SPLITS = 5
 EPOCHS = 30
